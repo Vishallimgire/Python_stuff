@@ -1,0 +1,1 @@
+print(f'mycode.py: {__name__}')

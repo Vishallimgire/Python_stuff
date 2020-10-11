@@ -1,0 +1,35 @@
+  {
+    "possible_tasks" : [
+                       "alert",
+                       "Applications"
+                       ],
+    "followup" : 
+    {
+        "alert":
+        [
+            "Application",
+            "Measures",
+            "Schedule_time",
+            "Schedule_date"
+        ]
+    },
+    "fallback": 
+        [
+          "Sorry, But I didnt understand yur selection",
+          "Please enter once again",
+          "Invalid option, enter again"
+        ],
+    "prompt":  
+    {
+        "everyday":
+        [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+        ]
+    }
+}
